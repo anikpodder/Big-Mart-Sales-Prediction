@@ -5,6 +5,11 @@ import numpy as np
 
 app = Flask(__name__)
 
+# Define the relative paths to the model files
+model_folder = os.path.join(os.getcwd(), 'models')
+scaler_path = os.path.join(model_folder, 'sc.sav')
+model_path = os.path.join(model_folder, 'lr.sav')
+
 @app.route("/")
 def index():
     return render_template("home.html")
@@ -27,14 +32,12 @@ def result():
                    outlet_establishment_year, outlet_size, outlet_location_type, outlet_type]])
 
     # Load the scaler
-    scaler_path = r'C:\Users\w10\Desktop\BigMart-Sales-Prediction-With-Deployment-main\models\sc.sav'
     sc = joblib.load(scaler_path)
 
     # Transform the input features
     X_std = sc.transform(X)
 
     # Load the model
-    model_path = r'C:\Users\w10\Desktop\BigMart-Sales-Prediction-With-Deployment-main\models\lr.sav'
     model = joblib.load(model_path)
 
     # Ensure the 'positive' attribute exists
