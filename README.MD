@@ -70,7 +70,7 @@ The goal is to provide a simple and effective way for store managers to predict 
    ```bash
    python app.py
 
-5. Open your browser and go to http://127.0.0.1:5000/ to interact with the app.
+5. Open your browser and go to http://127.0.0.1:9457 to interact with the app.
 
 ### Usage
 Input the product and store details, including features like product weight, store area, and product type.
