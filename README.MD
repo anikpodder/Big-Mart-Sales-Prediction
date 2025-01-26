@@ -72,7 +72,7 @@ The goal is to provide a simple and effective way for store managers to predict 
 
 5. Open your browser and go to http://127.0.0.1:5000/ to interact with the app.
 
-###Usage
+### Usage
 Input the product and store details, including features like product weight, store area, and product type.
 Click on the submit button to get the sales prediction for the given product and store.
 The predicted sales value will be displayed on the interface.
