@@ -42,9 +42,10 @@ The goal is to provide a simple and effective way for store managers to predict 
 ## Screenshots
 
 ### Home Page
-
+![Home Page](home.png)
 
 ### Prediction Page
+![Prediction Page](predict.png)
 
 ## Installation Guide
 
