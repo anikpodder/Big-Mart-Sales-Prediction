@@ -58,5 +58,7 @@ The goal is to provide a simple and effective way for store managers to predict 
    ```bash
    git clone https://github.com/anikpodder/big-mart-sales-prediction.git
 
-2. Install the required dependencies:
-pip install -r requirements.txt
+Navigate to the project directory:
+   ```bash
+   cd big-mart-sales-prediction
+
