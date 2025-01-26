@@ -58,7 +58,21 @@ The goal is to provide a simple and effective way for store managers to predict 
    ```bash
    git clone https://github.com/anikpodder/big-mart-sales-prediction.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
    ```bash
    cd big-mart-sales-prediction
 
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4. Run the Flask app:
+   ```bash
+   python app.py
+
+5. Open your browser and go to http://127.0.0.1:5000/ to interact with the app.
+
+Usage
+Input the product and store details, including features like product weight, store area, and product type.
+Click on the submit button to get the sales prediction for the given product and store.
+The predicted sales value will be displayed on the interface.
