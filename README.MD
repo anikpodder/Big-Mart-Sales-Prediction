@@ -36,7 +36,6 @@ The goal is to provide a simple and effective way for store managers to predict 
 - **Sales Prediction**: Predict the sales of a product in a specific store based on historical data.
 - **User-Friendly Interface**: Simple web interface to input the data and get predictions.
 - **Accuracy**: Improved prediction accuracy with Random Forest and Grid Search tuning.
-- **Visualization**: Sales prediction results are presented with graphs for better insights.
 - **Interactive**: Easy interaction with the model for testing different input conditions.
 
 ## Screenshots
